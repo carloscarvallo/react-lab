@@ -1,10 +1,10 @@
-import React from 'react';
-import Hello from './sub-components/Hello';
-import Parent from './sub-components/Parent';
+import React from "react";
+import Hello from "./sub-components/Hello";
+import Parent from "./sub-components/Parent";
 
 const styles = {
-  fontFamily: 'sans-serif',
-  textAlign: 'center',
+  fontFamily: "sans-serif",
+  textAlign: "center"
 };
 
 class App extends React.Component {
@@ -14,7 +14,7 @@ class App extends React.Component {
         <Hello name="abc" />
         <Hello name="abcd" />
       </Parent>
-    )
+    );
   }
 }
 

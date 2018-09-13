@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import ClippedDrawer from './components/ClippedDrawer';
-import ChildrenComponent from './components/ChildrenComponent'
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+// import ClippedDrawer from './components/ClippedDrawer';
+import ChildrenComponent from "./components/ChildrenComponent";
 
 class App extends Component {
   render() {
