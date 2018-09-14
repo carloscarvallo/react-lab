@@ -1,16 +1,16 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import Drawer from "@material-ui/core/Drawer";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import List from "@material-ui/core/List";
-import Typography from "@material-ui/core/Typography";
-import Divider from "@material-ui/core/Divider";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import Drawer from '@material-ui/core/Drawer';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import List from '@material-ui/core/List';
+import Typography from '@material-ui/core/Typography';
+import Divider from '@material-ui/core/Divider';
 import {
   mailFolderListItems,
   otherMailFolderListItems
-} from "./SideNavigation";
+} from './SideNavigation';
 
 const drawerWidth = 240;
 
@@ -19,15 +19,15 @@ const styles = theme => ({
     flexGrow: 1,
     height: 440,
     zIndex: 1,
-    overflow: "hidden",
-    position: "relative",
-    display: "flex"
+    overflow: 'hidden',
+    position: 'relative',
+    display: 'flex'
   },
   appBar: {
     zIndex: theme.zIndex.drawer + 1
   },
   drawerPaper: {
-    position: "relative",
+    position: 'relative',
     width: drawerWidth
   },
   content: {
@@ -66,7 +66,7 @@ function ClippedDrawer(props) {
       <main className={classes.content}>
         <div className={classes.toolbar} />
         <Typography noWrap>
-          {"You think water moves fast? You should see ice."}
+          {'You think water moves fast? You should see ice.'}
         </Typography>
       </main>
     </div>
